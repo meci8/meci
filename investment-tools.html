@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Same head as index.html -->
+</head>
+<body>
+    <header>
+        <!-- Reuse header from index.html -->
+    </header>
+
+    <main>
+        <section class="investment-tools">
+            <h2>AI-Powered Investment Tools</h2>
+            
+            <!-- Risk Assessment Tool -->
+            <div class="tool-card">
+                <h3>Risk Profile Analyzer</h3>
+                <div id="riskQuestions"></div>
+                <button onclick="analyzeRisk()">Get Analysis</button>
+                <div id="riskResult"></div>
+            </div>
+
+            <!-- Portfolio Optimizer -->
+            <div class="tool-card">
+                <h3>Portfolio Builder</h3>
+                <input type="number" id="investmentAmount" placeholder="Investment Amount ($)">
+                <button onclick="optimizePortfolio()">Generate Portfolio</button>
+                <div id="portfolioResult"></div>
+            </div>
+
+            <!-- Contact Capture -->
+            <div class="lead-capture">
+                <h3>Access Advanced Tools</h3>
+                <input type="text" id="userName" placeholder="Full Name">
+                <input type="tel" id="userPhone" placeholder="Phone Number">
+                <button onclick="collectAndSend()">Unlock Tools</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Reuse footer from index.html -->
+    <script src="script.js"></script>
+</body>
+</html>
